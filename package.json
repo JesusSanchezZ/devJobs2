@@ -1,0 +1,31 @@
+{
+  "name": "devjobs",
+  "version": "1.0.0",
+  "description": "Portal DevJobs con NodeJs, Handlebars y Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index"
+  },
+  "keywords": [
+    "jsz"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mongoose": "^6.2.9",
+    "session": "^0.1.0",
+    "shortid": "^2.2.16",
+    "slug": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
